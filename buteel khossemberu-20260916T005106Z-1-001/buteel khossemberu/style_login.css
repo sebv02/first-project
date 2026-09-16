@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lucida Sans';
+    background-color: #ffffff;  
+  }
+
+#content {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  #content h1 {
+    color: #e91e63;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #content p {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+  }
+  form {
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  label[for="single"],
+  label[for="taken"],
+  label[for="Rmail"] {
+    font-weight: normal;
+    color: #555;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  input[type="button"],
+  input[type="submit"] {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background-color: #c2185b;
+}
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 2rem;
+}

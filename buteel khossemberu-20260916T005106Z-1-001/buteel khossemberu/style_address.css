@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;  
+  }
+  
+  #container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e0e0e0; /* zuraas */
+  }
+  
+  #header h1 img {
+    width: 100px;  /* logonii tom jijig */
+    height: auto;
+  }
+  
+  #menu {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center; 
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #menu ul li {
+    display: inline-block;/*listiig 1 baganad*/
+    margin: 0 100px;  /* menu aboutiin zai */
+  }
+  
+  #menu ul li a {
+    text-decoration: none;
+    color: #333;  
+    font-weight: bold;
+    font-size: 1.2em; 
+    transition: color 0.3s ease; /*hoverlhd ungu n udaanar uurclugduh*/
+  }
+  
+  #menu ul li a:hover {
+    color: #e91e63;  
+    text-decoration: underline;
+  }
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+#location img {
+    width: 100%;
+    text-align: center;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+#location img:hover {
+    transform: scale(1.02);
+}

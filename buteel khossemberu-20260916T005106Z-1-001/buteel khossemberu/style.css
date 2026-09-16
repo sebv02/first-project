@@ -1,0 +1,91 @@
+body {
+  font-family: 'Lucida Sans';
+  background-color: #f4f4f4;  
+}
+#container {
+  width: 100%;
+  max-width: none;
+  padding: 0px ;
+  margin-bottom: 0px;
+}
+#header {
+  display: flex;
+  justify-content: center; 
+  background-color: #ffffff;
+}
+#header h1 img {
+  width: 100px;  
+  height: auto;
+}
+#menu {
+  background-color: #ffbbed;
+  padding: 15px 0;
+  border-bottom: 3px solid #ffffff;
+  text-align: center; 
+}
+#menu ul li {
+  display: inline-block;
+  margin: 0 100px;  
+}
+#menu ul li a {
+  text-decoration: none;
+  color: #ffffff;  
+  font-weight: bold;
+  font-size: 1.4em; 
+  transition: color 0.3s ease; 
+}
+#menu ul li a:hover {
+  color: #e91e63;  
+  text-decoration: underline;
+}
+/* 1 tom video */
+#content {
+  text-align: center;
+  background-color: #ffffff;
+}
+#content video {
+height: 800px;  
+width: 100%; 
+} 
+/* 3 zurag*/
+.products {
+  display: grid;  
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px;  
+display: flex;
+flex:wrap;
+  justify-items: center;
+}
+.product {
+  background-color: white;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 90%; 
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.product img { 
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  height: auto;  
+}
+.product img:hover {
+  transform: scale(1.1); 
+}
+.product h3 {
+  font-size: 1.6em;
+  color: #e91e63;  
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
